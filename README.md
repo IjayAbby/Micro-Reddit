@@ -64,6 +64,6 @@ Finally, if you've read this far, don't forget to give this repo a ⭐️. They'
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/IjayAbby/Micro-Reddit/blob/reddit/LICENSE) licensed.
 
    

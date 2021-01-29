@@ -24,6 +24,7 @@ To get this project set up on your local machine, follow these simple steps:
  4. Run ``cd micro-reddit``.
  5. To get the nessesary gems run ``bundle install``.
  6. Migrate the database by ``rails db:migrate``.
+ 7. Incase you run into a ``can't load WDM!`` error.Go to Gemfile and delete the line ``gem 'wdm', '>= 0.1.0' ``. If vise versa add the gem into your Gemfile.
 
 ### Run tests
 

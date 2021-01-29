@@ -8,12 +8,12 @@
 # migrations from scratch. Old migrations may fail to apply correctly if those
 # migrations use external dependencies or application code.
 #
-# It's strongly recommended that you check this file into your version control system.
-
+# It's strongly recommended that you check this file into your version control sy
 ActiveRecord::Schema.define(version: 2021_01_28_221047) do
 
   create_table "comments", force: :cascade do |t|
     t.string "title"
+
     t.text "body"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2021_01_28_221047) do
     t.text "body"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+
     t.integer "user_id"
     t.index ["user_id"], name: "index_posts_on_user_id"
   end
@@ -41,4 +42,5 @@ ActiveRecord::Schema.define(version: 2021_01_28_221047) do
   add_foreign_key "comments", "posts"
   add_foreign_key "comments", "users"
   add_foreign_key "posts", "users"
+
 end

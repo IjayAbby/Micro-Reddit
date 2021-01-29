@@ -19,9 +19,9 @@ To get this project set up on your local machine, follow these simple steps:
 
  1. Open Terminal.
  2. Navigate to your desired location to download the contents of this repository.
- 3. Copy and paste the following code into the Terminal: ``git clone https://github.com/IjayAbby/Micro-Reddit.git``
+ 3. Copy and paste the  following code into your Terminal: ``git clone https://github.com/IjayAbby/Micro-Reddit.git``
  4. Run ``cd micro-reddit``.
- 5. To get the nessesary gems run ``bundle install``.
+ 5. To get the nessesary gems you need to run ``bundle install``.
  6. Migrate the database by ``rails db:migrate``.
  7. Incase you run into a ``can't load WDM!`` error.Go to Gemfile and delete the line ``gem 'wdm', '>= 0.1.0' ``. If vise versa add the gem into your Gemfile.
 

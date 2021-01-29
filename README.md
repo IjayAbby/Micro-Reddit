@@ -2,8 +2,7 @@
 # Micro-Reddit
 This project puts your knowledge of active record, models, and associations to the tests. You will build an application similar to Reddit (called Micro-Reddit) where a user can create a post and add comments to it.
 
-![Screenshot from 2021-01-27 16-36-55](https://user-images.githubusercontent.com/43843720/105998882-1fe3af00-60be-11eb-8190-e06d3eaf8ff8.png)
-
+![Screenshot from 2021-01-29 13-09-55](https://user-images.githubusercontent.com/60691122/106263913-4cfea180-6225-11eb-9101-9fcd405751f4.png)
 ## Built With
 
    * Ruby -v 2.7.2
